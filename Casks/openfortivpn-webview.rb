@@ -15,7 +15,7 @@ cask "openfortivpn-webview" do
   preflight do
     File.write wrapper_script, <<~EOS
       #!/bin/sh
-      "#{staged_path}/openfortivpn-webview.app/Contents/MacOS/openfortivpn-webview" ""
+      "#{staged_path}/openfortivpn-webview.app/Contents/MacOS/openfortivpn-webview" "$@"
     EOS
   end
 
