@@ -1,9 +1,9 @@
 cask "openfortivpn-webview" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.1"
-  sha256 arm:   "a0fabc62f31420b738e4e06438c76d3226dbd5dae3637dabb81369259dc65108",
-         intel: "684e9c09faeee5085168ce57feff9bd9b1e460832010431291bed54bc488255f"
+  version "1.2.2"
+  sha256 arm:   "01f1632b01071648d4eff24d961d4f06ecde26acadf9ad23c0ef148c0436edb7",
+         intel: "73e5725471ac65397d1d18aa28b3adf318a9562ea9218a656eae8fc4dccf2365"
 
   url "https://github.com/gm-vm/openfortivpn-webview/releases/download/v#{version}-electron/openfortivpn-webview-#{version}-#{arch}.dmg"
   name "openfortivpn-webview"
